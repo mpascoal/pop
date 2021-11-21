@@ -2,7 +2,7 @@ app:
   build: .
   command: python -u main.py
   ports:
-    - "5000:5000"
+    - "80:5000"
   volumes:
     - .:/app
   links:
